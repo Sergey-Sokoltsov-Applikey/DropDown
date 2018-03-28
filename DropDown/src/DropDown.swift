@@ -510,6 +510,8 @@ private extension DropDown {
 		tableView.separatorColor = separatorColor
 		tableView.layer.cornerRadius = cornerRadius
 		tableView.layer.masksToBounds = true
+		tableView.layer.borderWidth = 1
+		tableView.layer.borderColor = UIColor.black.cgColor
 	}
 
 }
